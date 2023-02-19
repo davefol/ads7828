@@ -1,6 +1,7 @@
 use embedded_hal::blocking::{delay::DelayMs, i2c::{Read, Write}};
 
 #[repr(u8)]
+#[derive(Clone, Copy, Debug)]
 pub enum Channel {
     S0 = 0b10000100,
     S1 = 0b11000100,
