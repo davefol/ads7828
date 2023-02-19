@@ -1,6 +1,6 @@
 [package]
 name = "ads7828"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Device driver for the ADS7828 8 channel ADC. "
 license = "MIT"
